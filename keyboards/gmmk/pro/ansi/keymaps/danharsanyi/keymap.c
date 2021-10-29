@@ -16,6 +16,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+/*
+* This keymap is intended for use with MacOS. To following keys need to be set in System Preferences
+* F3: Keyboard -> Shortcuts -> Mission Control
+* F4: Keyboard -> Shortcuts -> Launchpad & Dock -> Show Launchpad
+* KC_PSCR: Keyboard -> Shortcuts -> Screenshots
+* 
+*/
+
 // clang-format off
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
